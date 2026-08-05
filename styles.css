@@ -10,6 +10,7 @@ body#wholeDocument {
 font-family: "Helvetica Neue", sans-serif; 
     font-size: 13px;
     line-height: 1.32;
+    background-color: rgba(36,143,82,0.2);
     
 }
 /* height hack to make nested divs set to 100% height work in Chrome and Firefox */
@@ -318,7 +319,7 @@ tr.note-row td.note-bg {
 
 }
 table.whole-row, table.whole-note, table#column-header, div.temp-wrapper {
-width: 664px;
+width: 555px;
 
 }
 /******************
@@ -336,12 +337,12 @@ tr#header td:nth-of-type(1), tr.outline-row > td:nth-of-type(1), tr.note-row > t
     max-width: 20px; 
 }
 table.outline-column { 
-    width: 644px; 
-    max-width: 644px; 
+    width: 535px; 
+    max-width: 535px; 
 }
 tr#header td:nth-of-type(2), tr.outline-row > td:nth-of-type(2) { 
-    width: 644px; 
-    max-width: 644px; 
+    width: 535px; 
+    max-width: 535px; 
     
 }
 
